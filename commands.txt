@@ -1,0 +1,11 @@
+sudo apt install docker.io docker-compose
+
+sudo docker image build -t <your-dockerhub-username>/<your-repository-username>:<tag> /path/to/projectfolder
+
+sudo docker container run -it <imagename>
+docker login
+
+sudo docker push <username>/<repo-name>
+sudo docker pull <username>/<reponame>:<tag>
+
+container run again [sudo docker container run -it <imagename>]
