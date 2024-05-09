@@ -55,13 +55,3 @@ You can also pull the pre-built Docker image from Docker Hub:
 sudo docker pull <dockerhub_username>/tic-tac-toe:latest
 sudo docker container run -it <dockerhub_username>/tic-tac-toe:latest
 ```
-
-## Contributing
-
-If you'd like to contribute to this repository, feel free to submit pull requests or open issues. Contributions are always welcome!
-
-```
-
-Replace `<repository_url>` with the URL of your Git repository, and `<dockerhub_username>` with your Docker Hub username if you decide to push your Docker image to Docker Hub.
-
-Feel free to customize this README according to your specific needs and preferences! Let me know if you need further assistance or have any questions.
