@@ -24,7 +24,7 @@ Follow the steps below to build and run the Tic-Tac-Toe game in a Docker contain
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/malakafaqahmad/tictactoe_pythonAI_DockerTutorial.git
     ```
 
 2. Navigate to the cloned directory:
@@ -36,13 +36,17 @@ Follow the steps below to build and run the Tic-Tac-Toe game in a Docker contain
 3. Build the Docker image:
 
     ```bash
-    sudo docker image build -t tic-tac-toe .
+    sudo docker image build -t malakkafaq/ai_tictactoe:latest /path/to/projectfolder
     ```
 
 4. Run the Docker container:
 
     ```bash
-    sudo docker container run -it tic-tac-toe
+    sudo docker container run -it malakkafaq/ai_tictactoe
+    ```
+push to docker hub
+    ```bash
+    sudo docker push malakkafaq/ai_tictactoe
     ```
 
 5. Play the Tic-Tac-Toe game! on you terminal
