@@ -17,6 +17,10 @@ To run the Tic-Tac-Toe game using Docker, you need to have Docker and Docker Com
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
 
+if on terminal run the following commands:
+sudo apt install docker.io docker-compose
+
+
 ## Usage
 
 Follow the steps below to build and run the Tic-Tac-Toe game in a Docker container:
