@@ -45,13 +45,13 @@ Follow the steps below to build and run the Tic-Tac-Toe game in a Docker contain
     sudo docker container run -it tic-tac-toe
     ```
 
-5. Play the Tic-Tac-Toe game!
+5. Play the Tic-Tac-Toe game! on you terminal
 
-## Docker Hub
+## Docker Hub Pull
 
-You can also pull the pre-built Docker image from Docker Hub:
+You can also pull the pre-built Docker image from Docker Hub on kali linux or ubuntu:
 
 ```bash
-sudo docker pull <dockerhub_username>/tic-tac-toe:latest
-sudo docker container run -it <dockerhub_username>/tic-tac-toe:latest
+sudo docker pull malakkafaq/ai_tictactoe
+sudo docker container run -it malakkafaq/ai_tictactoe
 ```
